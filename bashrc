@@ -116,6 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 export PATH="/usr/bin/python3:$PATH"
+export QT_QPA_PLATFORM=xcb
 
 # Custom aliases
 alias update='sudo apt update && sudo apt upgrade -y'
