@@ -69,3 +69,6 @@ vim.keymap.set("n", "<leader>r", ":w<CR>:!python3 %<CR>", { noremap = true, sile
 
 -- 🐞 Python Debugging with nvim-dap
 require("dap-python").setup("~/.virtualenvs/debugpy/bin/python")
+
+-- 📁 Toggle NERDTree
+vim.keymap.set("n", "<leader>n", ":NERDTreeToggle<CR>", { noremap = true, silent = true })
